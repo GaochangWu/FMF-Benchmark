@@ -1,7 +1,8 @@
 # Fused Magnesium Smelting Process Benchmark
 This is a cross-modal benchmark for the fused magnesium smelting process. The benchmark contains a total of 3 hours of synchronously acquired videos and three-phase alternating current data from different production batches. 
 
-News: The dataset will be available soon.
+## News: 
+We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
 ## BibTex Citation
 
