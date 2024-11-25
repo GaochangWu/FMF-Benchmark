@@ -7,7 +7,7 @@ This is a cross-modal benchmark for the fused magnesium smelting process. The be
 
 - 11/01/2024:  We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
-### Dataset Description
+## Dataset Description
 
 This dataset includes three sets of data stored in `.mat` format, comprising $2.7 \times 10^5$ samples with pixel-level annotations. Each file contains the following components:
 
