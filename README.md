@@ -3,8 +3,9 @@
 This is a cross-modal benchmark for the fused magnesium smelting process. The benchmark contains a total of 3 hours of synchronously acquired videos and three-phase alternating current data from different production batches. 
 
 ## News!
+- 11/25/2024:  Our pixel-level annotation dataset is now available. You can download it at: https://drive.google.com/file/d/12vQ_CHqKQ5TOK6i9whKO39OZO4Nssz_e/view?usp=sharing
 
-We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
+- 11/01/2024:  We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
 ### Dataset Description
 
