@@ -8,7 +8,7 @@ We are in the process of preparing the datasets, which are currently not very co
 
 ### Dataset Description
 
-This dataset includes three sets of data stored in `.mat` format, comprising \(2.7 \times 10^5\) samples with pixel-level annotations. Each file contains the following components:
+This dataset includes three sets of data stored in `.mat` format, comprising $2.7 \times 10^5$ samples with pixel-level annotations. Each file contains the following components:
 
 - **`video`**: A 4D tensor of shape `(height, width, RGB channel, N)` representing the 3D video modality. Here, `N` denotes the number of frames.
   
