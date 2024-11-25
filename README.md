@@ -6,6 +6,22 @@ This is a cross-modal benchmark for the fused magnesium smelting process. The be
 
 We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
+### Dataset Description
+
+This dataset includes three sets of data stored in `.mat` format. Each file contains the following components:
+
+- **`video`**: A 4D tensor of shape `(height, width, RGB channel, N)` representing the 3D video modality. Here, `N` denotes the number of frames.
+  
+- **`current`**: A 2D array of shape `(phase channel, N)` representing the 1D three-phase alternating current modality.
+
+- **`label`**: A 3D tensor of shape `(height, width, N)` representing pixel-level normal (`0`) and abnormal (`1`) masks. You can convert these masks to class-level labels using the formula:
+  ```matlab
+  class_label = single(sum(label, [1, 2]) > 0.5);
+  ```
+
+- **`train_test_index`**: A 1D array of shape `(1, N)` indicating the train-test split. A value of `0` represents a training example, while `1` indicates a test example.
+
+
 ## BibTex Citation
 
 If you find this benchmark useful, please cite our paper☺️.
