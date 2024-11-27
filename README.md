@@ -40,3 +40,4 @@ If you find this benchmark useful, please cite our paper☺️.
   journal={IEEE Transactions on Circuits and Systems for Video Technology}
 }
 ```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
