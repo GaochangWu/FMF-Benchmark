@@ -28,7 +28,7 @@ This dataset includes three sets of data stored in `.mat` format, comprising $2.
 
 - **`label`**: A 3D tensor of shape `(height, width, N)` representing pixel-level normal (`0`) and abnormal (`1`) masks. You can convert these masks to class-level labels using the formula:
   ```matlab
-  class_label = single(sum(label, [1, 2]) > 0.5);
+  class_label = single(sum(label, [1, 2]) > 0.5);  # Matlab code
   ```
 
 - **`train_test_index`**: A 1D array of shape `(1, N)` indicating the train-test split. A value of `0` represents a training example, while `1` indicates a test example.
