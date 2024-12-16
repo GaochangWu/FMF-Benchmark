@@ -33,6 +33,22 @@ This dataset includes three sets of data stored in `.mat` format, comprising $2.
 
 - **`train_test_index`**: A 1D array of shape `(1, N)` indicating the train-test split. A value of `0` represents a training example, while `1` indicates a test example.
 
+When using Python h5py to read videos and labels, the dimensions of these data will be reversed. Please pay attention to the transformation of dimensions when building your Dataset. This is a example for obtaining videos and labels using h5py:
+```python
+import h5py
+import numpy as np
+
+sample_path = "yourPath/FMF-Benchmark/pixel-level/videos/SaveToAvi-4-19-21_40_52-6002.mat"
+with h5py.File(sample_path, 'r') as reader:
+    video = reader['data']   # In MATLAB, size of video is [H W C T], but in h5py the size is [T C W H]
+    label = reader['label']  # In MATLAB, size of label is [H W T], but in h5py the size is [T W H]
+    video_clip = np.array(video[0:10], dtype=np.uint8)  # Get a 10 frame video clip
+    clip_label = np.array(label[9], dtype=np.uint8)     # Get pixel-level label for video clip
+video_clip = np.transpose(video_clip, axes=(0, 1, 3, 2))  # [10 C W H] -> [10 C H W]
+clip_label = np.transpose(clip_label, axes=(1, 0))     # [W H] -> [H W]
+clip_label_cls = np.max(clip_label)  # Get class-level label for video clip
+```
+
 
 ## BibTex Citation
 
