@@ -9,9 +9,11 @@ Cross-modal information is exploited to perform anomaly detection in the context
 ## News!
 - 12/16/2024:  Our code is cooming soon.
 - 11/25/2024:  Our dataset with pixel-level annotations is now available for download. You can access it via: 
-- **Google Drive**:
+
+  **Google Drive**:
 https://drive.google.com/file/d/12vQ_CHqKQ5TOK6i9whKO39OZO4Nssz_e/view?usp=sharing
-- **Baidu Disk**: 
+
+  **Baidu Disk**: 
 https://pan.baidu.com/s/1wjn9YcNPd_RN4uI6xfjeLw   (Fetch Code: **9gdz**)
 
 - 11/01/2024:  We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
