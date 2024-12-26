@@ -20,7 +20,7 @@ https://pan.baidu.com/s/1wjn9YcNPd_RN4uI6xfjeLw   (Fetch Code: **9gdz**)
 
 ## Dataset Description
 
-This dataset includes three sets of data stored in `.mat` format, comprising $2.7 \times 10^5$ samples with pixel-level annotations. Each file contains the following components:
+This dataset includes three sets of data stored in `.mat` format, comprising $2.7 \times 10^5$ samples with pixel-level annotations. For access to our large-scale class-level annotated dataset, which contains $2.2 \times 10^6$ samples, please feel free to contact us. In our pixel-level annotated dataset, each file contains the following components:
 
 - **`video`**: A 4D tensor of shape `(height, width, RGB channel, N)` representing the 3D video modality. Here, `N` denotes the number of frames.
   
