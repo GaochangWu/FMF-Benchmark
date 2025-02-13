@@ -1,0 +1,10 @@
+numpy
+torch
+matplotlib
+fvcore
+einops
+h5py
+pandas
+torchvision
+tqdm
+setuptools
