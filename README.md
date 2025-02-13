@@ -50,6 +50,36 @@ clip_label = np.transpose(clip_label, axes=(1, 0))     # [W H] -> [H W]
 clip_label_cls = np.max(clip_label)  # Get class-level label for video clip
 ```
 
+## Code Description
+This is an official pytorch implementation of our IEEE TCSVT 2024 paper [Cross-Modal Learning for Anomaly Detection in Complex Industrial Process: Methodology and Benchmark](https://ieeexplore.ieee.org/document/10744600). 
+We propose a cross-modal Transformer (dubbed FmFormer), designed to facilitate anomaly detection by exploring the correlation between visual features (video) and process variables (current) in the context of the fused magnesium smelting process.
+
+### Installation
+
+This project mainly requires the following python packages:
+- torch
+- numpy 
+- fvcore 
+- einops 
+- h5py
+- pandas
+
+After downloading this project, run the following code to build the codebase:
+```
+cd YourProjectPath/FmFormer
+python setup.py build develop
+```
+### Testing FmFormer
+
+Use the following code to test the cross-modal classification network:
+```
+python tools/test_cls.py --cfg './configs/CfgForViCu_Cls.yaml' DATA.PATH_TO_DATA_DIR 'datasetPath/FMF-Benchmark/pixel-level' MODEL.PRETRAINED './state_dict_vicu_cls.pth' DATA.SAMPLING_RATE 18
+```
+
+### Acknowledgements
+
+This project is based on [PySlowFast](https://github.com/facebookresearch/SlowFast) and [TimeSformer](https://github.com/facebookresearch/TimeSformer).
+
 
 ## BibTex Citation
 
