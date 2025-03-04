@@ -69,7 +69,7 @@ This project mainly requires the following python packages:
 
 After downloading this project, run the following code to build the codebase:
 ```
-cd YourProjectPath/FmFormer
+cd YourProjectPath/FMF-Benchmark
 python setup.py build develop
 ```
 ### Testing FmFormer
