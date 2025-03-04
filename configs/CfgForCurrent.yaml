@@ -2,7 +2,7 @@ TRAIN:
   DATASET: fmf_current
   BATCH_SIZE: 64
 DATA:
-  PATH_TO_DATA_DIR: ''
+  PATH_TO_DATA_DIR: './data/FMFBenchmarkV2/pixel-level'
   CURRENT_SECONDS: 120
   CURRENT_PATCH_DIMS: 3
 SOLVER:
