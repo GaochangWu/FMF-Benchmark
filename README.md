@@ -18,8 +18,8 @@ https://drive.google.com/file/d/12vQ_CHqKQ5TOK6i9whKO39OZO4Nssz_e/view?usp=shari
   **Baidu Disk**: 
 https://pan.baidu.com/s/1wjn9YcNPd_RN4uI6xfjeLw   (Fetch Code: **9gdz**)
 
-  **Baidu Disk** (Synchronous acquisition with different sampling rates): 
-  https://pan.baidu.com/s/1yXtn1Cz0XJMYAS_cNZ1wtA?pwd=0w2x   (Fetch Code: **0w2x**)
+  **Baidu Disk**: 
+  https://pan.baidu.com/s/1yXtn1Cz0XJMYAS_cNZ1wtA?pwd=0w2x   (Fetch Code: **0w2x**) **Note:** Synchronous acquisition with different sampling rates.
 - 11/01/2024:  We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
 ## Dataset Description
