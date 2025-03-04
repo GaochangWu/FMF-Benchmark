@@ -76,7 +76,7 @@ python setup.py build develop
 
 Use the following code to test the cross-modal classification network:
 ```
-python tools/test_cls.py --cfg './configs/CfgForViCu_Cls.yaml' DATA.PATH_TO_DATA_DIR 'datasetPath/FMF-Benchmark/pixel-level' MODEL.PRETRAINED './state_dict_vicu_cls.pth' DATA.SAMPLING_RATE 18
+python tools/test_cls.py --cfg './configs/CfgForViCu_Cls.yaml' MODEL.PRETRAINED './state_dict_vicu_cls.pth' DATA.SAMPLING_RATE 18
 ```
 
 ### Acknowledgements
