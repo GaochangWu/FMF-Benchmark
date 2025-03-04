@@ -7,6 +7,7 @@ This is a cross-modal benchmark for the fused magnesium smelting process. The be
 Cross-modal information is exploited to perform anomaly detection in the context of a typical industrial process, fused magnesium smelting, as illustrated in (a). The picture at the bottom left shows an anomaly region on the furnace shell, whose visual feature is difficult to detect due to interference from heavy water mist. A novel FMF Transformer (FmFormer) is proposed using synchronous acquired video and current data, to explore the internal features of each modality by self-attention and the correlation feature across modalities by cross-attention, as shown in (b).
 
 ## News!
+- 03/04/2025:  Our dataset, featuring diverse sampling rates, is now available for download.
 - 02/13/2025:  Our code is now available.
 - 12/16/2024:  Our code is cooming soon.
 - 11/25/2024:  Our dataset with pixel-level annotations is now available for download. You can access it via: 
@@ -17,6 +18,8 @@ https://drive.google.com/file/d/12vQ_CHqKQ5TOK6i9whKO39OZO4Nssz_e/view?usp=shari
   **Baidu Disk**: 
 https://pan.baidu.com/s/1wjn9YcNPd_RN4uI6xfjeLw   (Fetch Code: **9gdz**)
 
+  **Baidu Disk** (Synchronous acquisition with different sampling rates): 
+  https://pan.baidu.com/s/1yXtn1Cz0XJMYAS_cNZ1wtA?pwd=0w2x (Fetch Code: **0w2x**)
 - 11/01/2024:  We are in the process of preparing the datasets, which are currently not very convenient for research usage. If you would like to access the dataset in advance, please feel free to contact us: wugc\at mail\dot neu\dot edu\dot cn.
 
 ## Dataset Description
