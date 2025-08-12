@@ -16,7 +16,7 @@ Cross-modal information is exploited to perform anomaly detection in the context
 https://drive.google.com/file/d/12vQ_CHqKQ5TOK6i9whKO39OZO4Nssz_e/view?usp=sharing
 
   **Baidu Disk**: 
-https://pan.baidu.com/s/1wjn9YcNPd_RN4uI6xfjeLw   (Fetch Code: **9gdz**)
+https://pan.baidu.com/s/1es0GzxQnFLiJigsIs5wB4A?pwd=5nz5   (Fetch Code: **5nz5**)
 
   **Baidu Disk**: 
  https://pan.baidu.com/s/1fh6xiVDn1kxJiM17eUZEIQ?pwd=ebu3   (Fetch Code: **ebu3**) **Note:** Synchronous acquisition with different sampling rates.
